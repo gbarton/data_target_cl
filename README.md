@@ -11,9 +11,9 @@ How to use
 1. checkout Project
 2. install cloudera's version of Hadoop (hdfs,mr1,pig).
 3. run to grab all US sites in craigslist (- a few that have different date formats)
-    ./getStates.sh
+        ./getStates.sh
 4. kickoff the run script which will run forever, uploading once a day roughly into HDFS.
-    ./run.sh
+        ./run.sh
 
 At this point you have data pouring into HDFS.  stats.pig has some initial fun things to use and play with, check it out.
 
